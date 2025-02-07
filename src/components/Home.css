@@ -1,0 +1,57 @@
+/* Register.css */
+
+/* Default styles for desktop view */
+.build-button {
+    background-color: deeppink;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3.6vh;
+    padding: 3vh 4vw;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 0.5vh;
+    font-size: 3vh; /* Default button font size for larger screens */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Default styles for the image */
+  .responsive-img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5vh;
+    margin-top: 14vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .build-button {
+      padding: 2vh 3vw; /* Make button smaller on mobile */
+      font-size: 2vh; /* Adjust font size */
+      margin-top: 5vh; /* Adjust the margin to provide spacing */
+    }
+  
+    .responsive-img {
+      margin-top: 2vh; /* Increase top margin for mobile */
+      width: 100%; /* Scale the image down for smaller screens */
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px; /* Slightly rounded corners for mobile */
+    }
+  
+    /* Background Image Adjustments for Mobile */
+    body {
+      background-image: url('https://static.vecteezy.com/system/resources/previews/007/934/086/original/abstract-purple-and-pink-gradient-waves-background-glowing-lines-on-purple-background-vector.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  

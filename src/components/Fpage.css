@@ -1,0 +1,109 @@
+.back_btn{
+  height: 5vh;
+  text-align: center;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.login_button{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 2vh;
+  }
+
+   .login_button:hover{
+    color: rgb(207, 10, 207);
+    border: 2px solid rgb(207, 10, 207);
+    background: white;
+  }
+  .progressbar{
+    position: absolute;
+    top:10vh ;
+    margin-left: 28vw;
+    display: flex;
+    justify-content: center;
+  }
+  .linecomplete{
+    flex: 1;
+    height: 2px;
+    width: 15vw;
+    background-color: #00a65a;
+    margin: 12px 1vw;
+  }
+  .lineincomplete{
+    flex: 1;
+    height: 1px;
+    width: 15vw;
+    background-color: #dcdcdc;
+    margin: 12px 1vw;
+  }
+  
+  .progressbar .completedSteps{
+    height: 30px;
+    width: 30px;
+    background-color: #00a65a;
+    border: 1px solid #00a65a;
+    border-radius: 50%;
+  }
+  .tick-icon{
+    margin-top:4px ;
+    margin-left: 3px;
+  }
+  .inner{
+    justify-content: center;
+    display: flex;
+  }
+  .progressbar .currentSteps{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: #00a65a;
+    text-align: center;
+    border: 1px solid #00a65a;
+    border-radius: 50%;
+  }
+  
+  .progressbar .incompletedSteps{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: #dcdcdc;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+  }
+  
+  .profile{
+    position: relative;
+    margin-top:10vh;  
+    left: 39vw;
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  .context{
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 36vw;
+    font-weight: bolder;
+    font-size: 3vh;
+  }
+  
+  .info{
+    border: 1px dashed #dcdcdc;
+    position: relative;
+    margin-left: 10vw;
+    padding: 3vh;
+    text-align: center;
+    color: #a09090;
+    margin-top: 5vh;
+    background-color: #f0ecec;
+    width: 80vw;
+  }

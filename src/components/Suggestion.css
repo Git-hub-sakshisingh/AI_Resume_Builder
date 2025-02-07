@@ -1,0 +1,144 @@
+/* General Styles */
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe9f0;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    color: #e63946;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+  
+  /* Post Section */
+  .post-section {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  .create-post-btn {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .create-post-btn button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .create-post-btn button:hover {
+    background-color: #d62828;
+  }
+  
+  /* Recent Posts */
+  .recent-posts {
+    margin-top: 40px;
+  }
+  
+  .recent-posts h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .post-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .post-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .post-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .post-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .post-expanded {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Post Creation Form */
+  .post-form {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+  }
+  
+  .post-form input,
+  .post-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .post-form input:focus,
+  .post-form textarea:focus {
+    border-color: #e63946;
+    outline: none;
+  }
+  
+  .post-form button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .post-form button:hover {
+    background-color: #d62828;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+  }
+  
