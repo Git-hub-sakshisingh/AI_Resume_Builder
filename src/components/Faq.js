@@ -13,7 +13,7 @@ function Faq() {
     {
       question: "What is the AI Resume Builder?",
       answer:
-        "The AI Resume Builder helps you craft a professional resume by providing smart suggestions based on your skills, experience, and job preferences.",
+        "The AI Resume Builder helps you craft a professional resume by providing smart suggestions based on your skills, experience, and job preferences. ",
     },
     {
       question: "How do I use the AI Resume Builder?",
